@@ -1,0 +1,18 @@
+/* Designed the page with 768px*/
+@media only screen and (min-width: 768px) and (max-width: 1023px)  {
+    .change p{
+        font-size: 18px;
+        max-width: 70%;
+    }
+}
+
+/* Designed the page with 1280px*/
+@media only screen and (min-width: 1024px) {
+    .change p{
+        font-size: 20px;
+        max-width: 60%;
+    }
+}
+
+
+

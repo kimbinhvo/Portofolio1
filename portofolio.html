@@ -1,0 +1,114 @@
+<!doctype html> 
+<html>
+    <head>
+        <title> Portofolio </title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="List over my projects">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/portofolio.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/96bb08a331.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <main>
+            <section class="projects-container">
+                <h1> My projects</h1>
+                <p> Latest work</p> 
+                <div class="project">
+                    <img id="image" src="img/restaurants-in-oslo.png" alt="Restaurants in Oslo">
+                    <p> Blog </p>
+                    <h2> Restaurants In Oslo</h2>
+                    <div class="link">
+                        <a href="https://elastic-panini-44f5bd.netlify.app"> Link to Blog</a>
+                        <a href="https://github.com/kimbinhvo/Project-exam-portofolio"> Link to github</a>
+                    </div>
+                    <div class="change">
+                        <h3>What was change?</h3>
+                        <p> 1: I fixed the carousel in the home page</p>
+                        <p> 2: I added hover effects on images and buttons</p>
+                        <h3>How did I change it?</h3>
+                        <p> 1: The bug: All the 13 pictures from javascript was showed in the carousel. I want just one picture to be shown. Therefore I took display: none to hide them all. 
+                            Then I added just one picture in the html instead. When clicking on the next button to see the next picture in the carousel. 
+                            I have to hide the html by using document.getElementById("hide").style.display ="none", and start to show the pictures from javascript.
+                        </p>
+                        <p> 2: I gave all the images and buttons an id. And used that id to change the images and buttons in css</p>
+                        
+                        <h3>Why I did it that way ?</h3>
+                        <p> 1: That was the only way I could think of to do. By fixing this bug, the carousel will be correct and make it easier to navigate through the pictures.</p>
+                        <p> 2: The websites will look more elegant with images and buttons with hover effects.</p>
+                    </div>
+                   
+                </div>
+
+                <div class="project">
+                    <img id="image" src="img/community-science-museum.png" alt="Restaurants in Oslo">
+                    <p> Museum </p>
+                    <h2> Community Science Museum</h2>
+                    <div class="link">
+                        <a href="https://tender-ptolemy-015f09.netlify.app/index.html"> Link to the Museum</a>
+                        <a href="https://github.com/kimbinhvo/Community-Science-Museum"> Link to github</a>
+                    </div>
+                    <div class="change">
+                        <h3>What was change?</h3>
+                        <p> 1: I changed contact page</p>
+                        <p> 2: I added a navigation bar</p>
+                        <h3>How did I change it?</h3>
+                        <p> 1: I added javascript into contact page, which give user feedback</p>
+                        <p> 2: I made a drop down navigation bar for iPhone & tablet. And I used checkboxes, when its clicked, it will drop down the menu</p>
+                        
+                        <h3>Why I did it that way ?</h3>
+                        <p> 1: Easier for user to understand whats going on</p>
+                        <p> 2: Easier for user to navigate</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img id="image" src="img/rainydays.png" alt="Restaurants in Oslo">
+                    <p> Clothing Store </p>
+                    <h2> Rainydays</h2>
+                    <div class="link">
+                        <a href="https://epic-goldwasser-466f7f.netlify.app/index.html"> Link to the Museum</a>
+                        <a href="https://github.com/kimbinhvo/Rainydays_WP" > Link to github</a>
+                    </div>
+                    <div class="change">
+                        <h3>What was change?</h3>
+                        <p> - Based on the feedback, I made 3 changes:</p>
+                        <p> 1: I changed product.html and shoppingcart.html sites.</p>
+                        <p> 2: I changed the buttons at checkout-log-in.html</p>
+                        <p> 3: I changed the search input in the header. </p>
+                        <h3>How did I change it?</h3>
+                        <p> 1: I made the product.html and shoppingcart.html sites responsive by making everything center. I used max-width and text-align: center  </p>
+                        <p> 2: I changed the padding for the button in checkout-log-in.html</p>
+                        <p> 3: I removed the text-box by using display:none. And kept the search button for the mobile version. </p>
+                        
+                        <h3>Why I did it that way ?</h3>
+                        <p> 1: By making the sites responsive and center, the sites will look good in all sizes</p>
+                        <p> 2: By changing the padding, the buttons will not get broken. And the sites will look better</p>
+                        <p> 3: By removing the text-box, the header will look cleaner </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    <!--    <footer>
+            <section class="footer">
+                <div class="footer-grid">
+                    <ul class="footer-nav">
+                        <li><a href="about.html"> About us</a></li>
+                        <li><a href="contact.html"> Contact us</a></li>
+                        <li><a href="#"> FAQ</a></li>
+                        <li><a href="#"> Privacy</a></li>
+                    </ul>
+                    <ul class="social-links">
+                        <li><a href="#"> <i class="fab fa-facebook-square"></i></a></li> 
+                        <li><a href="#"> <i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"> <i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"> <i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+                <p>Copyright &copy; 2021 by Restaurants In Oslo. All rights reserved.</p> 
+        </footer> -->       
+        <script src="js/index.js"></script> 
+    </body>
+</html>

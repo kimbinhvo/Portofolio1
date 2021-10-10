@@ -1,0 +1,59 @@
+.projects-container {
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.projects-container h1{
+    font-size: 32px;
+}
+
+.projects-container p{
+    font-size: 24px;
+    color: rgb(1, 84, 84);
+    font-weight: 800;
+}
+
+.project img {
+    max-height: 400px;
+    max-width: 400px;
+    background-color: rgb(56, 56, 56);
+    margin: auto;
+    border: 3px solid black;
+}
+
+#image:hover{
+    transform: scale(110%);
+    opacity: 0.9;
+    transition: 1s;
+ }
+
+.project {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 0px;
+    margin: 50px 0px;
+}
+
+.project p {
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+
+.project h2 {
+    font-size: 32px;
+}
+
+.link a {
+    margin: 0px 30px;
+    font-size: 20px;
+}
+
+.change p{
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: black;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px ;
+}
